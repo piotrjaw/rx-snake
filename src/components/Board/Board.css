@@ -1,0 +1,24 @@
+.Board {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Board__wrapper {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.Board__cell {
+  border: .2px solid lightgray;
+  box-sizing: border-box;
+  font-size: 8px;
+  height: 20px;
+  width: 20px;
+}
+
+.Board__row {
+  display: flex;
+  box-sizing: border-box;
+}
